@@ -1,7 +1,7 @@
 import pandas as pd 
 s1=pd.Series((4570,4560,3460,2350),index=['P','Q','R','S'])
 s2=pd.Series((321,432,532,1324,5343,123,421331))
-print("Attribute \t\tobject sl1\tobject sl2")
+print("Attribute \t\tobject s1\tobject s2")
 print('idnex(.index)\t:\t',s1.index,'\t\t',s2.index)
 print('index name(.index.name)\t\t',s1.index.name,"\t\t",s2.index.name)
 print("values(.values)\t\t",s1.values,"\t\t",s2.values)
